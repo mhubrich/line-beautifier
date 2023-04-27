@@ -11,7 +11,9 @@ The optimization process involves the following steps:
 
 The above steps are further explained in the [Information](#information) section.
 
-## Examples
+## Example
+
+![Example](/examples/beautify.gif)
 
 ## Information
 
