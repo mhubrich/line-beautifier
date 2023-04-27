@@ -1,21 +1,21 @@
 # Line Beautifier
-**A library for cleaning, optimizing and standardizing hand-drawn lines on city maps.**
-
-The optimization process involves the following steps:
-1. Drawn LineStrings are matched to OSM street data.
-2. Overlaps are removed, i.e. streets are only covered once.
-3. LineStrings which started/ended only a few meters away from an intersection are connected to that intersection.
-4. All LineStrings are split at street intersections.
-5. The start and end of a LineString is shortened at intersections to yield a unifrom appearance.
-6. LineStrings smaller than a threshold are removed.
-
-The above steps are further explained in the [Information](#information) section.
+A library for cleaning, optimizing and standardizing hand-drawn lines on city maps.
 
 ## Example
 
 ![Example](/examples/beautify.gif)
 
-## Information
+## How it Works
+
+The optimization and standardization processes involves the following steps:
+1. Drawn lines are matched to OSM street data.
+2. Overlaps are removed, i.e. streets are only covered once.
+3. Lines which started/ended only a few meters away from an intersection are connected to that intersection.
+4. All lines are split at street intersections.
+5. The start and end of a line is shortened at intersections to yield a unifrom appearance.
+6. Lines smaller than a threshold are removed.
+
+These steps are further explained below.
 
 ### Map Matching
 Map matching is the problem of how to match recorded geographic coordinates to a logical model of the real world, typically using some form of Geographic Information System. The most common approach is to take recorded, serial location points (e.g. from GPS) and relate them to edges in an existing street graph (network).<sup>[[1]](https://en.wikipedia.org/wiki/Map_matching)</sup>
