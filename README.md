@@ -1,5 +1,30 @@
-# Line Beautifier
-A library for cleaning, optimizing and standardizing hand-drawn lines on city maps.
+<div align="center">
+  <h2 align="center">Line Beautifier</h2>
+
+  <p align="center">
+    A library for cleaning, optimizing, and standardizing hand-drawn lines on city maps
+  </p>
+</div>
+<br />
+
+**Table of Contents**
+- [Example](#example)
+- [How it Works](#how-it-works)
+  - [Map Matching](#map-matching)
+  - [Overlaps](#overlaps)
+  - [Connecting LineStrings to Intersections](#connecting-linestrings-to-intersections)
+  - [Splitting](#splitting)
+  - [Shortening](#shortening)
+  - [Removal](#removal)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgment](#acknowledgment)
+- [Author](#author)
+
 
 ## Example
 
