@@ -32,7 +32,7 @@
 
 ## How it Works
 
-The optimization and standardization processes involves the following steps:
+The optimization and standardization processes involve the following steps:
 1. Drawn lines are matched to OSM street data.
 2. Overlaps are removed, i.e. streets are only covered once.
 3. Lines which started/ended only a few meters away from an intersection are connected to that intersection.
